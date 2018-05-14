@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>RWD Resume</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+	
+	body{background-color: black;
+        font-family:Verdana;}
+	div{ color: white; }
+
+	*{box-sizing: border-box;}
+
+	@media only screen and (max-width: 300px)
+	{
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+	}
+
+	@media only screen and (min-width: 300px)
+	{
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+	}
+
+	@media only screen and (min-width: 600px) 
+	{
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	}
+
+	[class*="col-"] 
+	{
+		float: left;
+        text-align: center;
+		padding: 10px;
+	}
+
+	.row::after 
+	{
+		content: "";
+		clear: both;
+		display: table;
+	}
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+</style>
+</head>
+<body>
+    <div class="col-6 col-t-4 col-s-12">
+    <img style="border: 3px solid white " src="um.jpg" alt="um" width=360, height=360>
+    </div>
+    <div class="col-6 col-t-4 col-s-12">
+    <h3>Name</h3>
+    <p>정재은</p>
+    </div>
+    <div class="col-6 col-t-4 col-s-12">
+    <h3>Date Of Birth</h3>
+    <p>1999/05/30</p>
+    </div>
+    <div class="col-6 col-t-4 col-s-12">
+    <h3>Address</h3>
+    <p>Yeongcheon, North Gyeongsang Province</p>
+    </div>
+    <div class="col-6 col-t-4 col-s-12">
+    <h3>Email</h3>
+    <p>chocopie3026@naver.com</p>
+    </div>
+    <div class="col-12 col-t-12 col-s-12">
+    <hr>
+    </div>
+    <div class="col-12 col-t-12 col-s-12">
+    <h3>academic background,Certificate</h3>
+    <ul>
+        <li>Yeongcheon DongBu Elementary School Graduation</li>
+        <li>Yeongcheon girls middle school Graduation</li>
+        <li>Yeongcheon girls high school Graduation</li>
+        <li>Attending the Catholic University of Daegu</li>
+    </ul>
+    </div>
+</body>
+</html>
